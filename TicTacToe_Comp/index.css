@@ -1,0 +1,43 @@
+#header{
+    margin: 30px auto;
+    text-align: center;
+}
+.board{
+    display: block;
+    margin: 50px auto;
+    width: 451px;
+}
+.board-element{
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: right;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.vert{
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+.hori{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.mid{
+    border: 3px solid black;
+}
+span{
+    font-size: 100px;
+    text-align: center;
+}
+.message{
+    text-align: center;
+    margin:10px auto;
+    display: none;
+}
+.show{
+    display: block;
+    margin:10px auto;
+    text-align: center;
+}
+
